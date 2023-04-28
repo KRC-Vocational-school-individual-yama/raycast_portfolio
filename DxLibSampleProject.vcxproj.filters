@@ -9,6 +9,9 @@
     </ClCompile>
     <ClCompile Include="soce\level.cpp" />
     <ClCompile Include="soce\collision.cpp" />
+    <ClCompile Include="soce\barrett.cpp" />
+    <ClCompile Include="soce\game.cpp" />
+    <ClCompile Include="soce\player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="soce\config.h" />
@@ -17,6 +20,9 @@
     </ClInclude>
     <ClInclude Include="soce\level.h" />
     <ClInclude Include="soce\collision.h" />
+    <ClInclude Include="soce\game.h" />
+    <ClInclude Include="soce\player.h" />
+    <ClInclude Include="soce\barrett.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="main">
