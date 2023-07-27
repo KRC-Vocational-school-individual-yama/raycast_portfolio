@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\barrett.cpp" />
+    <ClCompile Include="source\collision.cpp" />
+    <ClCompile Include="source\game.cpp" />
+    <ClCompile Include="source\level.cpp" />
+    <ClCompile Include="source\player.cpp" />
+    <ClCompile Include="source\winmain.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\barrett.h" />
+    <ClInclude Include="source\collision.h" />
+    <ClInclude Include="source\config.h" />
+    <ClInclude Include="source\game.h" />
+    <ClInclude Include="source\level.h" />
+    <ClInclude Include="source\player.h" />
+    <ClInclude Include="source\object.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{52d98431-2315-42c0-b920-d67592bccd39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
